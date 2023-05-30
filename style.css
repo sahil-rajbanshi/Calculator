@@ -1,6 +1,7 @@
 body {
     text-align: center;
     background-color: #283149;
+     margin: auto;
   }
   
   h1 {
@@ -14,6 +15,7 @@ body {
   .set{
     width: 40%;
     margin: auto;
+    display: flex;
 }
 
 
