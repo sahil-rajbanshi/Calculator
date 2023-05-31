@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title">Calculator</h1>
+  
+    <h1 id="title" onclick="myFunction()">Calculator</h1>
+ 
 
     <div class="set">
      
@@ -56,6 +58,18 @@
        </form>
        
     </div>
+<script>
+    function myFunction(){
+        var text;
+        var inputA= prompt("Enter value for A :"," ");
+        var inputB= prompt("Enter operator:"," ");
+        var inputC= prompt("Enter value for B:"," ");
 
+        var output= alert(eval(inputA+inputB+inputC));
+
+
+    }
+
+</script>
 </body>
 </html>
